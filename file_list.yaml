@@ -1,0 +1,30 @@
+'../content/posts':
+  - '../source/posts'
+  - 'C:/doc/Projects/cv/raw/前端笔记'
+  
+'../content/series/go-basic':
+  - '../source/series/Go 入门笔记'
+
+'../content/series/computer-network-notes-bupt-verison': 
+  - '../source/series/«计算机网络»笔记'
+
+'../content/series/introduction-to-automata-theory-languages-and-computation-notes': 
+  - '../source/series/«自动机理论、语言和计算导论»学习笔记'
+
+'C:\Users\i\Desktop\less-bug.com\content\series\operations-research-notes':
+  - 'C:\Users\i\Desktop\less-bug.com\source\series\«运筹学»笔记'
+
+'C:\Users\i\Desktop\less-bug.com\content\series\linear-algebra-notes':
+  - 'C:\Users\i\Desktop\less-bug.com\source\series\«线性代数»笔记'
+
+'C:\Users\i\Desktop\less-bug.com\content\series\physics-basic-notes':
+  - 'C:\Users\i\Desktop\less-bug.com\source\series\«物理学基础»笔记'
+  
+'C:\Users\i\Desktop\less-bug.com\content\series\calculus-notes':
+  - 'C:\Users\i\Desktop\less-bug.com\source\series\«高等数学»笔记'
+
+'C:\Users\i\Desktop\less-bug.com\content\series\probability-notes':
+  - 'C:\Users\i\Desktop\less-bug.com\source\series\«概率论»笔记'
+
+'C:\Users\i\Desktop\less-bug.com\content\series\operating-system-notes':
+  - 'C:\Users\i\Desktop\less-bug.com\source\series\「操作系统：设计与实现」读书笔记'
