@@ -3,4 +3,5 @@ authors:
 escape: true
 build_path: C:\doc\Projects\cv\public
 deploy_url: http://www.less-bug.com:1848/upload
-deploy_key: 2xHHm0Z5BLb0M1GlBlpAGgfuxbqzSrDv
+deploy_key: abbHm0Z5BLb0M1GlBlpAGgfuxbqzSrDv
+tmp_dir: './tmp/'

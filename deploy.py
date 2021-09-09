@@ -31,7 +31,10 @@ def main():
     config_file_path = "config.yaml"
     config = yaml.load(open(config_file_path, encoding="utf-8",
                             mode="r"), Loader=yaml.SafeLoader)
-    archive_name = "./tmp/" + get_time_filename()
+    tmp_dir = config["tmp_dir"]                        
+    if not os.path.exists(i):
+        os.mkdir(tmp_dir)
+    archive_name = tmp_dir + get_time_filename()
 
     build_path = config["build_path"]
     url = config["deploy_url"]

@@ -4,3 +4,4 @@ escape: true
 build_path: ../public
 deploy_url: http://www.less-bug.com:1848/upload
 deploy_key: 2xHHm0Z5BLb0M1GlBlpAGgfuxbqzSrDv
+tmp_dir: './tmp/'
