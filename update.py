@@ -21,6 +21,8 @@ def main():
     print("clearing public directory...")
 
     build_path = config['build_path']
+    if not os.path.exists(build_path):
+        os.mkdir(build_path)
     clear_dir(build_path)
 
     print("generating...")
