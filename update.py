@@ -30,6 +30,7 @@ def main():
     ret = call("hugo", cwd=get_parent(build_path), shell=True)
     if(ret != 0):
         print("FAILED")
+        exit(1)
 
     print("deploying...")
 

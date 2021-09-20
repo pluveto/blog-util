@@ -32,7 +32,7 @@ def main():
     config = yaml.load(open(config_file_path, encoding="utf-8",
                             mode="r"), Loader=yaml.SafeLoader)
     tmp_dir = config["tmp_dir"]                        
-    if not os.path.exists(i):
+    if not os.path.exists(tmp_dir):
         os.mkdir(tmp_dir)
     archive_name = tmp_dir + get_time_filename()
 
