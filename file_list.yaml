@@ -28,3 +28,6 @@
 
 '../content/series/operating-system-notes':
   - '../source/series/「操作系统：设计与实现」读书笔记'
+  
+'../content/series/understanding-analysis-notes':
+  - '../source/series/Understanding Analysis 学习笔记'
