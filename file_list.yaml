@@ -31,3 +31,9 @@
   
 '../content/series/understanding-analysis-notes':
   - '../source/series/Understanding Analysis 学习笔记'
+
+'../content/series/all-of-statistics-notes':
+  - '../source/series/All of Statistics 学习笔记'
+
+'../content/series/leetcode-notes':
+  - '../source/series/Leetcode 刷题笔记'
