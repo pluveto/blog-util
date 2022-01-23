@@ -67,20 +67,21 @@ def strip_meta(content):
     Args:
         content (str): 完整的 md 文档
     """
-    status = 0
+    status = 0 # stauts = 1 代表处于 meta 区域
     builder = []
-    skipping = False
+    reading_body = False
     for line in content.split('\n'):
-        if skipping:
+        if reading_body:
             builder.append(line)
             continue
         if line.strip() == "---":
             status += 1
+
         if status == 2:
-            status = 0
-            skipping = True
+            status = 3
+            reading_body = True
             continue
-        if status == 0:
+        if status == 0 or status > 2:
             builder.append(line)
             continue
         if status == 1:

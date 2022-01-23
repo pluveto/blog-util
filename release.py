@@ -82,7 +82,7 @@ def process_post(doc_path, config):
 
     if(config['escape']):
         content = escape_util.escape_math(raw_content)
-    content = md_util.remove_title(content)
+    # content = md_util.remove_title(content)
     content = md_util.hide(content)
     out_path = os.path.join(config['output_dir'], meta['slug'] + ".md")
 
