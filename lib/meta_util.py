@@ -26,6 +26,10 @@ def read_meta(path):
             line = file.readline()
             if len(line) == 0:
                 break
+            if len(line.strip()) == 0:
+                continue
+            if status == 0 and not line.strip().startswith("---"):
+                break;
             if line.strip() == "---":
                 status += 1
                 continue
