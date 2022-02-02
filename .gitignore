@@ -1,1 +1,4 @@
 tmp
+/config.yaml
+/file_list.yaml
+/test.c
